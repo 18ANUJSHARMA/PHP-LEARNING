@@ -42,13 +42,23 @@ echo is_int($num)."<br>"; //check whether the variable is an integer or not , is
 
 echo "hello"."<br>";
 
-die; // or die() // this will stop the execution of the script // Script stops here. Nothing after this runs.
+// die; // or die() // this will stop the execution of the script // Script stops here. Nothing after this runs.
 
-exit; // ❌ This never runs // this will stop the execution of the script // Script stops here. Nothing after this runs.
+// exit; // ❌ This never runs // this will stop the execution of the script // Script stops here. Nothing after this runs.
 echo " world"."<br>"; // ❌ This never runs
 echo "hello world"."<br>";// ❌ This never runs
 
 
+
+function name($name){
+    echo "my name is $name"."<br>";
+}
+
+name("anaya")."<br>";
+name("shanaya")."<br>";
+name("manaya")."<br>";
+name("suhana")."<br>";
+name("ananya")."<br>";
 
 
 
